@@ -49,13 +49,13 @@ python2.7 -m pip install numpy
 Install required Python3 libraries using pip and conda:
 
 ```bash
-pip3 install pytest-shutil
-pip3 install pandas
 conda config --add channels conda-forge
 conda install fpocket
+conda install -c conda-forge vina
+pip3 install pytest-shutil
+pip3 install pandas
 pip3 install argpass
 pip3 install tqdm
-pip3 install vina
 ```
 
 ## Step 5: Create Config File
